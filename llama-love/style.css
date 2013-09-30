@@ -54,3 +54,42 @@ table {
 /* END RESET */
 
 
+
+article
+	{ float:right;
+
+		width:400px;
+		margin:80px 60px 80px 80px;
+		padding:50px;
+		font-family:Helvetica
+
+}
+h1
+	{ font-size:20px}
+h2
+	{color:gray;
+	font-size:10px}
+
+
+body
+	{font-size:12px;}
+
+img
+	{float:left;
+		width:250;
+		margin:5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
