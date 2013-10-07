@@ -51,26 +51,32 @@ table {
 }
 
 
-/* Center Content */
-
-.centered { 
-  margin:0 auto;
-  width:960px;
-}
+/* END RESET */
 
 
-/* Clearfix */
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-}
- 
-.clearfix { display: inline-block; }
-html[xmlns] .clearfix { display: block; }
-* html .clearfix { height: 1%; }
+nav
+ {float:center;}
+
+section
+	{ float:right;
+
+	}
+
+h1
+	{float:center;}
+h2
+{float:center;}
+
+
+body
+	{font-size:10px;}
+
+img
+	{float:center;
+		width:250;
+		margin:5px;}
+
+
+
 
 
