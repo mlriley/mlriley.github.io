@@ -55,24 +55,24 @@ table {
 
 
 nav
- {float:center;}
+ {float:center;
+ 	width:500px;
+ 	font-family:Georgia;
+ 	font-color:black;}
 
-section
-	{ float:right;
+article
+	{ float:left;
+		width:500px;
+		padding:0px 20px 10px 10px;}
 
-	}
-
-h1
-	{float:center;}
-h2
-{float:center;}
 
 
 body
-	{font-size:10px;}
+	{font-size:14px;
+		font-family:Georgia;}
 
 img
-	{float:center;
+	{float:left;
 		width:250;
 		margin:5px;}
 
