@@ -54,9 +54,18 @@ table {
 /* END RESET */
 
 
-nav
- {float:center;
- 	width:500px;
+header {
+  display:block;	
+  text-indent:-9999px;    
+  position:absolute;
+  width:300px; height:80px;
+  background:url(logo.png) no-repeat left top;
+	
+
+}
+
+ul
+{
  	font-family:Georgia;
  	font-color:black;}
 
