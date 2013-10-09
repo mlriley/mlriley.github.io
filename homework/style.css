@@ -47,11 +47,37 @@ table {
 	border-spacing: 0;
 }
 
-/* Add Styles Here */
-body { font-family:Georgia; font-size:14px; }
-section#content { margin:0 auto; width:960px; padding:50px 50px; }
-a {text-decoration:none; color:#669933}
 
-h1 { font-family:Helvetica; text-transform:uppercase; font-size:50px; font-weight:bold; color:black;  }
-h2 { font-size:25px; font-weight:bold; color:black;  padding-top:30px;}
-p { font-size:20px; padding-top:10px; padding-left:50px; color:#cccccc;}
+
+
+
+
+
+/* Add Styles Here */
+
+
+
+
+
+body {
+	
+	background-color:rgb(200,229,229);
+	font-family:georgia;
+	font-size:10px; }
+section#content { margin:0 auto; width:960px; padding:50px 50px; }
+a {text-decoration:none; color:#ffffff}
+
+h1 { font-family:Helvetica; text-transform:uppercase; font-size:38px; font-weight:bold; color:orange;  }
+h2 { font-size:20px; font-weight:bold; color:black;  padding-top:30px;}
+p { font-size:12px; padding-top:10px; padding-left:50px; color:#cccccc;}
+
+
+
+
+
+
+
+
+
+
+
