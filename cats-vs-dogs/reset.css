@@ -103,6 +103,7 @@ nav {
 
 #topnav {
 	border-top:3px solid black;
+	width:100%;
 
 }
 
@@ -129,13 +130,14 @@ li {
 	float:left;
 	clear:both;
 	max-width:450px;
-	margin: 200px 10px 10px 150px;
+	margin: 200px 15px 10px 200px;
 	font-family:sans-serif;
 	font-size: 13px;
 }
 
 h2 {
-	font-family:sans-serif;
+	font-family:serif;
+	font-weight: bold;
 	font-size:24px;
 	margin:10px 10px 10px 10px;
 }
@@ -143,7 +145,7 @@ h2 {
 #cats {
 	float:left;
 	max-width:450px;
-	margin: 200px 10px 10px 100px;
+	margin: 200px 30px 10px 100px;
 	font-family:sans-serif;
 	font-size:13px;
 }
@@ -151,12 +153,15 @@ h2 {
 
 
 article img {
-	width:200px;
+	width:400px;
 }
 
 
 footer {
 	clear:left;
+	font-family: sans-serif;
+	font-size: 9px;
+	border-top:2px;
 
 }
 
