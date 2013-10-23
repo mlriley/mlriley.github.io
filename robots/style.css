@@ -57,27 +57,170 @@ table {
 
 
 
-#menu-wrapper {
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
 	margin:0px;
-	height:30px;
-	border-top:2px solid black;
-	border-bottom:2px solid black;
-	background-color:yellow;
+	width:100%;
+	line-height:20px;
+	font-size: 11px; 
+	background-color:white;
+	font-family: sans-serif;
+}
+
+
+
+div {
+	display:block;
+}
+
+
+h1 {
+display: block;
+height:30px;
+width:400px;
+font-size:3em;
+text-transform: uppercase;
+font-weight: bold;
+color:#875c33;
+}
+
+h2 {
+	display:block;
+	height:20px;
+	width:700px;
+	font-size:18px;
+	text-transform: uppercase;
+	color:#875c33;
+}
+
+
+
+
+
+#site-header {
+	position:relative;
+	height:130px;
+	background-color:beige;
+	margin: 0 auto;
+	width:960px;
+}
+
+
+#site-wrapper{
+	width:100%;
+	background-color:beige;
+	margin: 0 auto;
+}
+
+
+
+#site-header h1 a {
+  display:block;
+  width:300px;
+  height:123px;    
+  position:absolute;
+  background:url(images/logo.png) no-repeat left top;
+  text-indent:-9999px;
+	}
+
+
+
+
+#top-nav{
+	position:absolute;
+	top:10px;
+	right:0px;
+	background-color:beige;
+	font-family:Helvetica; 
+	text-decoration:none;
+	font-size:10px;
+	color:#875c33;
+}
+
+
+
+#main-menu {
+	display:inline-block;
+	width:100%;
+	height:2px;
+	float:left;
+	padding:20px;
+	background-color:#875c33;
 	text-decoration: none;
 }
 
-body {
-	background-color:orange;
+#main-menu li {
+	float:left;
+	width:90px;
+	margin:0px 20px 0px 0px;
+	color:white;
+}
+
+#main-menu ul {
+	padding:0px 0px 0px 230px;
+	color:white;
+	text-transform: uppercase;
+	font-weight:bold;
 
 }
 
-#content-wrapper {
-	font-family:Georgia;
+
+
+#content{
+	clear:left;
+	padding:100px 700px 0px 250px;
 }
+
+
+aside{
+position: absolute;
+padding: 40px;
+left: 800px;
+top: 235px;
+}
+
 
 #sidebar {
-	background-color:green;
+	float:left;
+	width:300px;
 }
+
+
+#footer-wrapper {
+	display:inline-block;
+	width:100%;
+	height:200px;
+	float:left;
+	padding:20px;
+	background-color:#875c33;
+}
+
+#footer-contact {
+	clear:left;
+	padding:30px 1000px 0px 250px;
+	color:white;
+
+}
+
+#footer-follow img {
+	clear:left;
+	float:right;
+	width:50px;
+	margin:0 auto;
+}
+
 
 
 
