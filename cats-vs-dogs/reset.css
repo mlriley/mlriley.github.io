@@ -79,40 +79,70 @@ header {
 }
 
 
+
+
+
+
 #logo {
 position:absolute;
 	top:30px;
-	left:400px;
+	left:450px;
 }
 
 
+#menu ul li a {
 
-ul {
-	list-style:none;
-	text-decoration: none;
-}
 
-li {
 	list-style:none;
-	float:left;
-	max-width:400px;
-	margin:10px 10px 30px 10px;
 	text-transform:uppercase;
-	font-family:sans-serif;
-	text-align:center;
+	font-family:georgia;
+	font-size: 14px;
+	font-weight: bold;
 	text-decoration:none;
+	color:black;
+}
+
+
+#menu li {
+float:left;
+width:80px;
+
+}
+
+#menu {
+	position:absolute;
+	top: 150px; right:400px;
+	border: 30px;
 
 }
 
 
+
+
+
+
+/*articles*/
 
 #dogs {
 	float:left;
 	clear:both;
-	max-width:450px;
+	width:450px;
 	margin: 200px 15px 10px 200px;
-	font-family:sans-serif;
+	font-family:serif;
 	font-size: 13px;
+	line-height: 15px;
+}
+
+
+
+#cats {
+	float:left;
+	width:450px;
+	margin: 200px 70px 0px 100px;
+	font-family:serif;
+	font-size:13px;
+	line-height: 15px;
+
 }
 
 h2 {
@@ -122,18 +152,20 @@ h2 {
 	margin:10px 10px 10px 10px;
 }
 
-#cats {
-	float:left;
-	max-width:450px;
-	margin: 200px 30px 10px 100px;
-	font-family:sans-serif;
-	font-size:13px;
-}
-
-
 article img {
 	width:400px;
 }
+
+/*endarticles*/
+
+
+
+
+
+
+
+
+
 
 
 footer {
@@ -146,8 +178,10 @@ footer {
 
 #wiki-link {
 	float: left;
+	width:300px;
 }
 
 #marth-link {
 	float:right;
+	width:300px;
 }
