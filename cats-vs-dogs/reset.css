@@ -86,7 +86,7 @@ header {
 #logo {
 position:absolute;
 	top:30px;
-	left:500px;
+	left:480px;
 }
 
 
@@ -96,7 +96,7 @@ position:absolute;
 	list-style:none;
 	text-transform:uppercase;
 	font-family:georgia;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: bold;
 	text-decoration:none;
 	color:black;
