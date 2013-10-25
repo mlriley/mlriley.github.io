@@ -86,7 +86,7 @@ header {
 #logo {
 position:absolute;
 	top:30px;
-	left:450px;
+	left:500px;
 }
 
 
@@ -105,14 +105,14 @@ position:absolute;
 
 
 #menu li {
-float:left;
-width:80px;
+display:inline-block;
+padding:10px 10px 10px 10px;
 
 }
 
 #menu {
 	position:absolute;
-	top: 150px; right:0px; left:200px;
+	top: 150px; right:0px;
 	text-align: center;
 border-top:2px solid black;
 border-bottom: 2px solid black;
@@ -130,8 +130,8 @@ width:100%;
 #dogs {
 	float:left;
 	clear:both;
-	width:450px;
-	margin: 200px 15px 10px 200px;
+	width:320px;
+	margin: 230px 15px 10px 300px;
 	font-family:serif;
 	font-size: 13px;
 	line-height: 15px;
@@ -142,7 +142,7 @@ width:100%;
 #cats {
 	float:left;
 	width:450px;
-	margin: 200px 70px 0px 100px;
+	margin: 230px 70px 0px 100px;
 	font-family:serif;
 	font-size:13px;
 	line-height: 15px;
@@ -183,9 +183,12 @@ footer {
 #wiki-link {
 	float: left;
 	width:300px;
+	padding:10px;
+	border-top: 0px solid white;
 }
 
 #marth-link {
 	float:right;
 	width:300px;
+		border-top: 0px solid white;
 }
