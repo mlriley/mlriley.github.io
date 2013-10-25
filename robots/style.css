@@ -191,6 +191,7 @@ h2 {
 }
 
 
+
 aside{
 position: absolute;
 padding: 40px;
@@ -208,6 +209,12 @@ top: 235px;
 	text-decoration: none;
 	color:#875c33;
 }
+
+
+
+
+
+/*footer stuff*/
 
 
 #footer-wrapper {
@@ -242,11 +249,13 @@ top: 235px;
 	text-transform: uppercase;
 	color:beige;
 	font-size: 18px;
-	float:right;
-	width:300px;
 }
 
-
+#footer-follow {
+	float:right;
+	width:300px;
+	margin:0px 300px 700px 20px;
+}
 
 
 
