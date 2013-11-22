@@ -146,13 +146,16 @@ body {
 #myface {
 	float:left;
 	width:100%;
-	margin:300px 0px 0px 400px;
+	margin:300px 0px 0px 420px;
+
 }
 
 #bio {
+
 	float:right;
-	width:350px;
-	margin:0px 420px 0px 0px;
+	width:20%;
+	margin:0px 450px 0px 0px;
+
 }
 
 h1{
@@ -183,8 +186,18 @@ h1{
 }
 
 
+#bodytext {
+	clear:both;
+	float:right;
+	width:40%;
+		margin:0px 30px 300px 0px;
 
+}
 
+#bodytext h2 {
+	font-family: helvetica;
+
+}
 
 
 
