@@ -117,13 +117,9 @@ padding:10px 10px 10px 10px;
 
 
 body {
-	font-family:Garamond;
-	font-size: 15px;
+	font-family:georgia;
+	font-size: 12px;
 	}
-
-	p.big {line-height:200%}
-}
-
 
 
 
@@ -166,7 +162,7 @@ body {
 
 }
 
-h1{
+h2{
 	font-size: 18px;
 	font-family: helvetica;
 }
@@ -187,16 +183,18 @@ h1{
 
 #larger {
 	float:left;
-	width:50%;
-	margin:0px 0px 0px 380px;
+	max-width:80%;
+	padding-left: 380px;
 }
 
 
 #bodytext {
-	clear:both;
+	clear:right;
 	float:right;
-	width:40%;
-		margin:0px 30px 300px 0px;
+	max-width:20%;
+	padding-right:420px;
+	padding-bottom:300px;
+	line-height:150%;
 
 }
 
