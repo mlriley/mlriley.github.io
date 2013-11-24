@@ -147,7 +147,7 @@ body {
 #myface {
 	float:left;
 	max-width:80%;
-	padding-left:380px;
+	padding-left:440px;
 
 
 
@@ -157,6 +157,7 @@ body {
 	float:right;
 	max-width:20%;
 	padding-right: 480px;
+		line-height:150%;
 
 
 
