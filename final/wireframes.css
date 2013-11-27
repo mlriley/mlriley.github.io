@@ -74,13 +74,14 @@ header {
 
 #logo {
 position:absolute;
+max-width:100%;
 	top:30px;
 	left:630px;
 }
 
 #menu {
 	position:absolute;
-	top: 200px; right:420px;
+	top: 0%; right:420px;
 	text-align: center;
 border-top:2px solid black;
 
