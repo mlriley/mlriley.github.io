@@ -71,22 +71,23 @@ header {
 	height:300px;
 }
 
-
 #logo {
 position:absolute;
 max-width:100%;
 	top:30px;
 	left:630px;
+
 }
 
+
+
+
 #menu {
-	position:absolute;
-	top: 0%; right:420px;
+	position:fixed;
+	top: 200px; right:420px;
 	text-align: center;
-border-top:2px solid black;
-
-width:45%;
-
+	border-top:2px solid black;
+	width:45%;
 }
 
 
@@ -128,17 +129,19 @@ body {
 /*PORTFOLIO*/
 
 #images img {
-	padding:5px 5px 5px 5px;
+	padding:5px;
 }
 
 #images {	
 	float:left;
 	width:100%;
-	margin:0px 10px 10px 420px;
+	margin:0px 10px 10px 410px;
 }
 
-
-
+#blocktexthome {
+	width:50%;
+	margin:0 auto;
+}
 
 
 /*ABOUT PAGE*/
@@ -155,9 +158,10 @@ body {
 }
 
 #bio {
-	float:right;
-	max-width:20%;
-	padding-right: 480px;
+	position:absolute;
+	left:680px;
+	width:20%;
+
 		line-height:150%;
 
 
