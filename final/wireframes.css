@@ -185,23 +185,24 @@ h2  {
 
 /*errythang portfolio*/
 
-
-
 #larger {
 	float:left;
-	width:100%;
-	}
-
-
+	width:500px;
+}
 
 .bodytext {
-	position:absolute;
-	right:270px;
-	width:280px;
-	line-height:150%;
+	float:right;
+	width:350px;
 	font-family: helvetica;
 	font-size: 11px;
+	line-height: 15px;
+}
+
+.bodytext h2 {
+	font-family: helvetica;
 	}
+
+/*BIG PORTFOLIO SIZED IMAGEZZZZ*/
 
 .image-h-1 {
 	position: relative;
@@ -212,7 +213,6 @@ margin-bottom:10px;
 }
 
 .image-h-2 {
-position: relative;
 width: 500px;
 height: 140px;
 left: 40px;
@@ -220,17 +220,11 @@ margin-bottom:10px;
 }
 
 .image-1 {
-position: relative;
 width: 500px;
 height: 680px;
 left: 40px;
 margin-bottom:10px;
 }
-
-
-.bodytext h2 {
-	font-family: helvetica;
-	}
 
 
 
