@@ -56,12 +56,10 @@ table {
 
 
 
-
-
-
-
-
-
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	}
 
 
 
@@ -69,26 +67,33 @@ table {
 header {
 	position:relative;
 	height:300px;
-}
+	}
+
+
 
 #logo {
-position:absolute;
-max-width:100%;
+	position:relative;
+	left:400px;
 	top:30px;
-	left:630px;
+	display:inline-block;
+	margin:0 auto;
+	text-align: center;
+	}
 
-}
+/*NAV NAV NAV NAV NAV*/
 
 
 
 
 #menu {
 	position:absolute;
-	top: 200px; right:420px;
+	top: 200px;
 	text-align: center;
 	border-top:2px solid black;
-	width:45%;
-}
+	width:100%;
+	}
+
+
 
 
 #menu ul li a {
@@ -100,17 +105,13 @@ max-width:100%;
 	font-weight: bold;
 	text-decoration:none;
 	color:black;
-	
-}
+	}
 
 
 #menu li {
-display:inline-block;
-padding:10px 10px 10px 10px;
-
-}
-
-
+	display:inline-block;
+	padding:10px 10px 10px 10px;
+	}
 
 
 /*END MENU!!!!!!*/
@@ -118,30 +119,27 @@ padding:10px 10px 10px 10px;
 
 
 
-body {
-	font-family:georgia;
-	font-size: 12px;
+
+/*PORTFOLIO*/
+
+
+
+#images img {
+	padding:5px;
 	}
 
 
 
-
-/*PORTFOLIO*/
-
-#images img {
-	padding:5px;
-}
-
-#images {	
-	float:left;
-	width:100%;
-	margin:0px 10px 10px 55px;
-}
-
-#blocktexthome {
-	width:50%;
+#images {
+	position:relative;
+	left:180px;
+	bottom:30px;
+	display:inline-block;
 	margin:0 auto;
-}
+	text-align: center;
+	}
+
+
 
 
 /*ABOUT PAGE*/
@@ -149,39 +147,41 @@ body {
 
 
 #myface {
-	float:left;
-	max-width:80%;
-	padding-left:440px;
+	position:absolute;
+	left:200px;
+	width:250px;
+	}
 
 
 
-}
-
-#bio {
+.bio {
 	position:absolute;
 	left:680px;
-	width:20%;
+	width:250px;
+	line-height:150%;
+	font-family: helvetica;
+	font-size: 11px;
+	}
 
-		line-height:150%;
 
 
-
-}
-
-h2{
+h2  {
 	font-size: 18px;
 	font-family: helvetica;
-}
+	}
 
 
 
 
 /*RESUME PAGE*/
 
+
+
 #resume {
 	position:absolute;
 	right:395px;
-}
+	}
+
 
 /*errythang portfolio*/
 
@@ -189,25 +189,48 @@ h2{
 
 #larger {
 	float:left;
-	max-width:80%;
-	padding-left: 380px;
-}
+	width:100%;
+	}
 
 
-#bodytext {
-	clear:right;
-	float:right;
-	max-width:20%;
-	padding-right:420px;
-	padding-bottom:300px;
+
+.bodytext {
+	position:absolute;
+	right:270px;
+	width:280px;
 	line-height:150%;
-
-}
-
-#bodytext h2 {
 	font-family: helvetica;
+	font-size: 11px;
+	}
 
+.image-h-1 {
+	position: relative;
+	width: 500px;
+	height: 350px;
+	left: 40px;
+margin-bottom:10px;
 }
+
+.image-h-2 {
+position: relative;
+width: 500px;
+height: 140px;
+left: 40px;
+margin-bottom:10px;
+}
+
+.image-1 {
+position: relative;
+width: 500px;
+height: 680px;
+left: 40px;
+margin-bottom:10px;
+}
+
+
+.bodytext h2 {
+	font-family: helvetica;
+	}
 
 
 
