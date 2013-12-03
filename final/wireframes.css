@@ -216,6 +216,9 @@ h2  {
 	font:black;
 }
 
+.bodytext ul a:hover  {color:lightgray;}
+.bodytext ul a:active  {color:white;}
+
 
 /*BIG PORTFOLIO SIZED IMAGEZZZZ*/
 
