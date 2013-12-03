@@ -205,12 +205,17 @@ h2  {
 
 .bodytext h2 {
 	font-family: helvetica;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-style: bold;
 	}
 
-.bodytext ul li {
+
+.bodytext ul a {
 	text-decoration: none;
 	font:black;
 }
+
 
 /*BIG PORTFOLIO SIZED IMAGEZZZZ*/
 
