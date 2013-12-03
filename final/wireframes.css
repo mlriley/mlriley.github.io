@@ -152,21 +152,21 @@ header {
 
 
 #myface {
-	position:absolute;
-	left:200px;
-	width:250px;
-	}
+	float:left;
+	width:200px;
+	margin-left:200px;
+}
 
 
 
 .bio {
-	position:absolute;
-	left:680px;
-	width:250px;
-	line-height:150%;
+	float:right;
+	width:350px;
+	margin-right:150px;
 	font-family: helvetica;
 	font-size: 11px;
-	}
+	line-height: 15px;
+}
 
 
 
