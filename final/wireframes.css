@@ -145,6 +145,14 @@ header {
 	margin-bottom:100px;
 }
 
+img
+{
+opacity:1.0;
+}
+img:hover
+{
+opacity:0.4;
+}
 
 
 /*ABOUT PAGE*/
