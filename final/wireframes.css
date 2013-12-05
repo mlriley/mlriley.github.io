@@ -74,16 +74,17 @@ header {
 #logo {
 	position:relative;
 	left:400px;
-	top:30px;
+	top:35px;
 	display:inline-block;
 	margin:0 auto;
 	text-align: center;
 	}
 
+
+
+
+
 /*NAV NAV NAV NAV NAV*/
-
-
-
 
 #menu {
 	position:absolute;
@@ -92,9 +93,6 @@ header {
 	border-top:2px solid black;
 	width:100%;
 	}
-
-
-
 
 #menu ul li a {
 
@@ -107,11 +105,15 @@ header {
 	color:black;
 	}
 
-
 #menu li {
 	display:inline-block;
 	padding:10px 10px 10px 10px;
 	}
+
+
+#menu ul a:active  {color:white;}
+#menu ul a:visited {color:black;}
+#menu ul a:hover  {background-color:rgb(183,220,225);}
 
 
 /*END MENU!!!!!!*/
@@ -142,17 +144,17 @@ header {
 	margin-left: 10px;
 	margin-right:10px;
 	margin-top: 10px;
-	margin-bottom:100px;
-}
+	margin-bottom:200px;
+	}
 
-img
-{
-opacity:1.0;
-}
-img:hover
-{
-opacity:0.4;
-}
+#images img {
+
+	opacity:1.0;
+	}
+
+#images img:hover {
+	opacity:0.4;
+	}
 
 
 /*ABOUT PAGE*/
@@ -221,11 +223,17 @@ h2  {
 
 .bodytext ul a {
 	text-decoration: none;
-	font:black;
+	color:black;
 }
 
-.bodytext ul a:hover  {color:lightgray;}
+.bodytext ul {
+	color:black;
+}
+
+
 .bodytext ul a:active  {color:white;}
+.bodytext ul a:visited {color:black;}
+.bodytext ul a:hover  {background-color:rgb(183,220,225);}
 
 
 /*BIG PORTFOLIO SIZED IMAGEZZZZ*/
@@ -236,6 +244,14 @@ h2  {
 	margin-left: 40px;
 	margin-bottom:10px;
 }
+
+.image-h-11 {
+	width: 500px;
+	height: 385px;
+	margin-left: 40px;
+	margin-bottom:10px;
+}
+
 
 .image-h-2 {
 width: 500px;
@@ -270,6 +286,26 @@ width: 500px;
 height: 680px;
 margin-left: 40px;
 margin-bottom:10px;
+}
+
+
+/*PHOTOGG*/
+
+
+.photography {
+	width: 500px;
+height: 340px;
+margin-left: 40px;
+margin-bottom:10px;
+}
+
+
+.bodytext {
+	float:right;
+	width:350px;
+	font-family: helvetica;
+	font-size: 11px;
+	line-height: 15px;
 }
 
 /*ICONZZZ*/
