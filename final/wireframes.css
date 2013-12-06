@@ -210,6 +210,15 @@ h2  {
 	margin:5px;
 }
 
+#linklogo img {
+
+	opacity:1.0;
+	}
+
+#linklogo img:hover {
+	opacity:0.6;
+	}
+
 
 /*RESUME PAGE*/
 
