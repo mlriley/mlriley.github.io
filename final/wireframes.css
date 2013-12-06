@@ -185,7 +185,30 @@ h2  {
 	font-family: helvetica;
 	}
 
+#designed {
+	float:left;
+	clear:left;
+	width:300px;
+	margin-left:203px;
+	margin-top:10px;
+	font-family: helvetica;
+	font-size: 10px;
+	font-style: italic;
+}
 
+#linklogo {
+	float:left;
+	clear:left;
+	width:300px;
+	margin-left:230px;
+	margin-top:10px;
+}
+
+.linklogo {
+	width:40px;
+	height:40px;
+	margin:5px;
+}
 
 
 /*RESUME PAGE*/
