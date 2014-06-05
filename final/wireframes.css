@@ -131,31 +131,31 @@ header {
 #images {
 	float:left;
 	width:960px;
-	margin:10px;
+	margin:0px;
 	}
 
 .homepage {
 	width: 295px;
 	height: 250px;
-	margin: 11px;
+	margin: 8px;
 }
 
 .homepage-1 {
 	width: 295px;
 	height: 250px;
-	margin-left: 11px;
-	margin-right:11px;
-	margin-top: 11px;
+	margin-left: 8px;
+	margin-right:8px;
+	margin-top: 8px;
 	margin-bottom:200px;
 	}
 
 #images img {
 
-	opacity:1.0;
+	opacity:.6;
 	}
 
 #images img:hover {
-	opacity:0.4;
+	opacity:1.0;
 	}
 
 
@@ -347,6 +347,19 @@ margin-left: 0px;
 margin-bottom:10px;
 }
 
+.image-2 {
+width: 575px;
+height: 750px;
+margin-left: 0px;
+margin-bottom:10px;
+}
+
+.image-3 {
+width: 575px;
+height: 500px;
+margin-left: 0px;
+margin-bottom:10px;
+}
 
 /*PHOTOGG*/
 
