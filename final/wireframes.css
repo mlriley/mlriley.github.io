@@ -342,7 +342,7 @@ h3  {
 
 .image-h-2 {
 width: 575px;
-height: 140px;
+height: 175px;
 margin-left: 0px;
 margin-bottom:10px;
 }
@@ -386,6 +386,21 @@ margin-bottom:10px;
 width: 575px;
 height: 500px;
 margin-left: 0px;
+margin-bottom:10px;
+}
+
+.image-4 {
+width: 575px;
+height: 330px;
+margin-left: 0px;
+margin-bottom:10px;
+}
+
+
+.image-5 {
+width: 300px;
+height: 600px;
+margin-left: 150px;
 margin-bottom:10px;
 }
 
